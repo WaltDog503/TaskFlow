@@ -1,41 +1,47 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Compiled object files
 *.o
 *.obj
+
+# Compiled binary files
+*.exe
+*.out
+*.app
+*.a
+*.so
+*.dll
+*.lib
 
 # Precompiled Headers
 *.gch
 *.pch
 
-# Linker files
-*.ilk
+# Code coverage files
+*.gcda
+*.gcno
+*.gcov
 
-# Debugger Files
-*.pdb
+# Build directories
+/build/
+/bin/
+/Debug/
+/Release/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# IDE files
+/.vscode/
+/.idea/
 
-# Fortran module files
-*.mod
-*.smod
+# Mac OS hidden files
+.DS_Store
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Temporary files
+*~
+*.tmp
+*.temp
+*.bak
 
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# CMake files (if using CMake)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+node_modules/
