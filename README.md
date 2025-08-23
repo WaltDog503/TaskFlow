@@ -26,16 +26,19 @@ This project provides a simple yet effective way to create, manage, and track ta
 
 1. Navigate to the project directory:
 
-
 2. Compile the main source code:
 
 3. Run the executable:
+
 - On Windows:
-  ```
+
+  ```bash
   taskflow.exe
   ```
+
 - On macOS/Linux:
-  ```
+
+  ```bash
   ./taskflow
   ```
 
@@ -56,7 +59,6 @@ TaskFlow/
 ├── LICENSE # License (MIT)
 └── .gitignore # Git ignore file for build and system files
 
-
 ---
 
 ## Contributing
@@ -72,4 +74,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 *Thank you for checking out TaskFlow!*
-
