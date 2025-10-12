@@ -19,5 +19,11 @@
         "$gcc"
       ]
     }
-  ]
+  ],
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4",
+    "grunt": "^1.6.1",
+    "grunt-cli": "^1.4.3"
+  }
 }
